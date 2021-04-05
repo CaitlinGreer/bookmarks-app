@@ -49,7 +49,7 @@ export default function BookmarkItem(props) {
           </p>
           <div className='BookmarkItem__buttons'>
             <Link to={`/edit/${props.id}`}>
-              Edit
+              Edit Bookmark
             </Link>
             {' '}
             <button
